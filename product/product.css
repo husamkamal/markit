@@ -242,7 +242,10 @@ li {
     color: rgb(211, 211, 211)
     /* border: 2px solid #77cccd; */
   }
-  .card > button {
+  a{
+    text-decoration-line: none;
+  }
+  .card > .button {
     width: 90%;
     color: white;
     font-size: 1.5rem;
@@ -251,6 +254,8 @@ li {
     border-radius: 50px;
     margin-top: 1.6rem;
     height: 3rem;
+    padding-top: .5rem;
+    padding-left: 6rem;
   }
   .stor > button{
     width: 10%;
