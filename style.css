@@ -440,10 +440,11 @@ hr {
   .navbar {
     flex-direction: column;
     align-items: baseline;
+    width: 20rem;
   }
 
   .list {
-    width: 23rem;
+    width: 19.5rem;
     margin-top: -2rem;
   }
   .navbar > .list > a > li {
@@ -458,17 +459,17 @@ hr {
   }
   .imag_desc {
     display: flex;
-    width: 25rem;
+    width: 20rem;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
   .imag_desc > img {
-    width: 25rem;
+    width: 19rem;
     height: 19rem;
   }
   .imag_desc > .header-paraa {
-    width: 23rem;
+    width: 19rem;
     margin-bottom: 15rem;
     margin-right: 1.9rem;
     margin-top: 5rem;
@@ -484,20 +485,20 @@ hr {
     font-size: 2rem;
   }
   .header-paraa > .spans {
-    width: 30rem;
+    width: 19rem;
     margin-top: -1rem;
-    padding-right: 4rem;
+    padding-right: 2rem;
     /* margin-right: 16rem; */
   }
   .header-paraa > .spans > .shop {
     width: 10rem;
-    font-size: 1.7rem;
-    margin-left: 5rem;
+    font-size: 1rem;
+    margin-left: .8rem;
     padding-bottom: 1.9rem;
   }
   .header-paraa > .spans > .fuon {
-    width: 11rem;
-    font-size: 1.7rem;
+    /* width: 1rem; */
+    font-size: 1rem;
   }
   .header-paraa > .spans > .fuon:hover {
     border: 1px solid white;
@@ -505,18 +506,23 @@ hr {
   .aboutUs {
     flex-direction: column;
   }
+  .aboutUs>img{
+    width: 19rem;
+  }
   .aboutUs > .contin {
-    width: 23rem;
+    width: 19rem;
   }
   .contin > h2 {
-    margin-left: 9rem;
+    font-size: 2rem;
+    margin-left: 8rem;
   }
   .contin > p {
-    font-size: 1rem;
+    font-size: .8rem;
     width: 18rem;
-    margin-left: 4.5rem;
+    margin-left: 2rem;
   }
   .stor {
+    width: 19rem;
     height: 100rem;
   }
   .card-contia {
@@ -525,14 +531,27 @@ hr {
   .card-contia > .card {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    width: 22rem;
+    width: 18.5rem;
     margin-left: 0.5rem;
   }
   .card > img {
-    width: 19rem;
+    width: 16rem;
   }
-  .card > button {
-    margin-left: 3rem;
+  .card > .button {
+    width: 18rem;
+    margin-bottom: .9rem;
+    font-size: 1.5rem;
+    padding-left: 4.7rem;
+  }
+  .pris-span>.span{
+    font-size: 1.1rem;
+  }
+  .pris-span{
+    width: 19rem;
+    margin-left: 4rem;
+  }
+  .pris-span>.pris{
+    margin-left: .7rem;
   }
   .stor > .button {
     width: 10rem;
