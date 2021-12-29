@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Josefin+Sans&family=Roboto+Mono:ital,wght@1,200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Josefin+Sans&family=Roboto+Mono:ital,wght@1,200&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Almarai", sans-serif;
+  font-family: 'Almarai', sans-serif;
 }
 .header {
   background-color: #77cccd;
@@ -34,7 +34,7 @@
   /* margin-top: 2rem; */
   /* margin-bottom: 2rem; */
 }
-a {
+a{
   text-decoration-line: none;
 }
 
@@ -61,10 +61,10 @@ li {
   padding-top: 10px;
   border: 1px solid white;
   border-radius: 60px;
-  box-shadow: inset 0px 3px 15px rgba(0, 0, 0, 0.16);
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
+  box-shadow:inset 0px 3px 15px rgba(0,0,0,.16);
+  box-shadow: 0px 3px 15px rgba(0,0,0,.16);
 }
-.shop-now:hover {
+.shop-now:hover{
   background-color: white;
   color: #b4d334;
   border: 3px solid #b4d334;
@@ -100,20 +100,21 @@ li {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-}
-.paraaaa {
+ }
+.paraaaa{
   margin-bottom: -3rem;
-  font-family: "Almarai", sans-serif;
+  font-family: 'Almarai', sans-serif;
   font-weight: 800;
 }
 .font-width-span {
-  font-family: "Almarai", sans-serif;
+ font-family: 'Almarai', sans-serif;
   font-size: 3.5rem;
   padding-left: 1.7rem;
 }
 .parra-span {
+
   /* opacity: 100%; */
-  background-color: rgba(180, 211, 52, 0.42);
+  background-color: rgba(180,211,52,.42);
   /* opacity: 90%; */
 }
 
@@ -136,8 +137,8 @@ li {
   padding-top: 10px;
   border: 1px solid white;
   border-radius: 60px;
-  box-shadow: inset 0px 3px 15px rgba(0, 0, 0, 0.16);
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
+  box-shadow:inset 0px 3px 15px rgba(0,0,0,.16);
+  box-shadow: 0px 3px 15px rgba(0,0,0,.16);
   margin-left: 2rem;
 }
 .shop:hover {
@@ -157,8 +158,9 @@ li {
   text-align: center;
   height: 50px;
   padding-top: 10px;
+  
 }
-.fuon:hover {
+.fuon:hover{
   border: 2px solid white;
   border-radius: 10px;
   cursor: pointer;
@@ -188,6 +190,7 @@ li {
   background-color: #b4d334;
   color: white;
   padding-left: 40px;
+  
 }
 .contin > p {
   margin-right: 2rem;
@@ -207,16 +210,17 @@ li {
   justify-content: space-around;
   background-color: #77cccd;
 }
-.stor > h2 {
+.stor > h2{
   background-color: white;
   color: #77cccd;
   width: 15rem;
   text-align: center;
   height: 3.5rem;
   margin-top: 1rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: .8rem;
   /* padding-top: .1rem; */
-  font-size: 3rem;
+  font-size: 3rem   ;
+  
 }
 .card-contia {
   display: flex;
@@ -231,15 +235,15 @@ li {
   flex-direction: column;
   align-items: center;
 }
-.card-contia > .card:hover {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
+.card-contia > .card:hover{
+  box-shadow: 0px 3px 15px rgba(0,0,0,.16);
 }
 .card > img {
-  margin-top: 0.7rem;
+  margin-top: .7rem;
   width: 24rem;
   height: 17rem;
   border-radius: 50px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 15px rgba(0,0,0,.16);
 }
 .pris-span > .span {
   /* margin-top: .5rem; */
@@ -247,30 +251,30 @@ li {
   font-size: 1.4rem;
   color: #77cccd;
 }
-.pris-span {
-  margin-top: 0.5rem;
+.pris-span{
+  margin-top: .5rem;
   margin-right: 4rem;
   width: 25rem;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
 }
-.pris {
+.pris{
   font-size: 1.8rem;
   color: #77cccd;
 }
-.dolar {
+.dolar{
   color: #858583;
 }
-.rating {
+.rating{
   margin-left: 12rem;
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 .checked {
   color: #77cccd;
 }
-.unactive {
-  color: rgb(211, 211, 211);
+.unactive{
+  color: rgb(211, 211, 211)
   /* border: 2px solid #77cccd; */
 }
 .card > .button {
@@ -282,10 +286,10 @@ li {
   border-radius: 50px;
   margin-top: 1.6rem;
   height: 3rem;
-  padding-top: 0.5rem;
+  padding-top: .5rem;
   padding-left: 6rem;
 }
-.stor > .button {
+.stor > .button{
   width: 10%;
   border: none;
   font-size: 2rem;
@@ -293,7 +297,7 @@ li {
   margin-left: 2rem;
   background-color: #77cccd;
 }
-.stor > button:hover {
+.stor > button:hover{
   cursor: pointer;
 }
 .conect {
@@ -326,8 +330,8 @@ li {
   padding: 1rem;
   border: 3px solid #c1cf77;
 }
-.conectpla > textarea:hover {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
+.conectpla > textarea:hover{
+box-shadow: 0px 3px 15px rgba(0,0,0,.16);
 }
 .conectpla > button {
   color: white;
@@ -377,7 +381,7 @@ hr {
 .footer > img {
   width: 280px;
   height: 170px;
-  margin-top: 0.8rem;
+  margin-top: .8rem;
   margin-left: 2rem;
 }
 .contin-fot {
@@ -393,7 +397,7 @@ hr {
   align-items: flex-end;
   flex-direction: column;
 }
-.word > span {
+.word > span{
   margin-right: 1rem;
 }
 .word > h2 {
@@ -422,7 +426,7 @@ hr {
 }
 .media > h2 {
   font-size: 2rem;
-  margin-right: 1.5rem;
+margin-right: 1.5rem;
   padding-left: 10rem;
   margin-bottom: 1rem;
 }
@@ -435,160 +439,163 @@ hr {
 .icon-fot > img {
   width: 4rem;
   height: 4rem;
-}
+  }
 @media screen and (max-width: 400px) {
-  .navbar {
+  
+  .navbar{
+    
     flex-direction: column;
     align-items: baseline;
-    width: 20rem;
   }
 
-  .list {
-    width: 20rem;
+  .list{
+   
+    width: 23rem;
     margin-top: -2rem;
   }
-  .navbar > .list > a > li {
+  .navbar>.list>a>li{
     font-size: 1rem;
   }
-  .shop-now {
-    font-size: 0.5rem;
+  .shop-now{
+    font-size: .5rem;
     width: 3rem;
     border-radius: 15px;
     padding-top: 11px;
     height: 2rem;
-  }
-  .imag_desc {
+  } 
+  .imag_desc{
     display: flex;
     width: 25rem;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
-  .imag_desc > img {
+  .imag_desc >img{
     width: 25rem;
     height: 19rem;
   }
-  .imag_desc > .header-paraa {
+  .imag_desc >.header-paraa{
     width: 23rem;
     margin-bottom: 15rem;
     margin-right: 1.9rem;
     margin-top: 5rem;
-  }
-
-  .header-paraa > p > .paraaaa {
+}
+  
+  .header-paraa >p>.paraaaa{
     font-weight: 800;
     font-size: 2.1rem;
     margin-left: 1rem;
-    margin-bottom: -3.5rem;
-  }
-  .header-paraa > p > .font-width-span {
+    margin-bottom: -3.5rem
+  } 
+  .header-paraa >p>.font-width-span{
     font-size: 2rem;
   }
-  .header-paraa > .spans {
+  .header-paraa >.spans{
     width: 30rem;
     margin-top: -1rem;
-    padding-right: 4rem;
+    padding-right:4rem;
     /* margin-right: 16rem; */
   }
-  .header-paraa > .spans > .shop {
+  .header-paraa >.spans >.shop{
     width: 10rem;
     font-size: 1.7rem;
     margin-left: 5rem;
     padding-bottom: 1.9rem;
   }
-  .header-paraa > .spans > .fuon {
+  .header-paraa >.spans >.fuon{
     width: 11rem;
     font-size: 1.7rem;
   }
-  .header-paraa > .spans > .fuon:hover {
+  .header-paraa >.spans >.fuon:hover{
     border: 1px solid white;
   }
-  .aboutUs {
+  .aboutUs{
     flex-direction: column;
   }
-  .aboutUs > .contin {
+  .aboutUs > .contin{
     width: 23rem;
   }
-  .contin > h2 {
+  .contin > h2{
     margin-left: 9rem;
   }
-  .contin > p {
+  .contin >p{
     font-size: 1rem;
     width: 18rem;
     margin-left: 4.5rem;
   }
-  .stor {
+  .stor{
     height: 100rem;
   }
-  .card-contia {
+  .card-contia{
     flex-direction: column;
   }
-  .card-contia > .card {
+  .card-contia>.card{
     margin-top: 1rem;
     margin-bottom: 2rem;
     width: 22rem;
-    margin-left: 0.5rem;
+    margin-left: .5rem;
   }
-  .card > img {
+  .card>img{
     width: 19rem;
   }
-  .card > button {
+  .card>button{
     margin-left: 3rem;
   }
-  .stor > .button {
+  .stor>.button{
     width: 10rem;
     margin-bottom: 1rem;
   }
-  .conect {
+  .conect{
     width: 0rem;
     margin-left: 11rem;
+}
+.conect>.conectpla{
+  width: 20rem;
+  margin-left: 1.5rem;
+}
+.conectpla>textarea{
+  width: 18rem;
   }
-  .conect > .conectpla {
-    width: 20rem;
-    margin-left: 1.5rem;
-  }
-  .conectpla > textarea {
+  .conectpla>button{
     width: 18rem;
   }
-  .conectpla > button {
+  .conectpla>.icon{
     width: 18rem;
   }
-  .conectpla > .icon {
-    width: 18rem;
-  }
-  .hrspan > hr {
+  .hrspan>hr{
     width: 7rem;
   }
-  .icon > img {
+  .icon>img{
     width: 3rem;
   }
-  .footer {
+  .footer{
     width: 23rem;
   }
-  .footer > img {
+  .footer>img{
     width: 8rem;
     height: 8rem;
     margin-left: 1rem;
     margin-top: 1rem;
   }
-  .contin-fot {
+  .contin-fot{
     width: 10rem;
     margin-left: 10rem;
     flex-direction: column;
   }
-  .word {
-    font-size: 0.5rem;
+  .word{
+    font-size: .5rem;
     margin-right: 12rem;
   }
-  .media {
+  .media{
     font-size: 1rem;
     margin-right: 20rem;
   }
-  .media > .icon-fot {
+  .media>.icon-fot{
     width: 5rem;
   }
-  .icon-fot > img {
+  .icon-fot>img{
     width: 4rem;
     margin-left: -12rem;
   }
+
 }
