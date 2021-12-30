@@ -338,4 +338,111 @@ li {
     height: 4rem;
     }
   
-  
+    @media screen and (max-width: 450px) {
+      .navbar{
+        /* width: 23rem; */
+        flex-direction: column;
+        align-items: baseline;
+      }
+    
+      .list{
+       
+        width: 22rem;
+        margin-top: -2rem;
+      }
+      .list>li{
+        font-size: 1rem;
+      }
+      .shop-now{
+        font-size: .5rem;
+        width: 3rem;
+        border-radius: 15px;
+        padding-top: 11px;
+        height: 2rem;
+      } 
+      .continer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .continer>.product{
+        flex-direction: column;
+        /* background-color: red; */
+        margin-left: 0;
+        /* width: 23rem; */
+      }
+      .product>.image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .image>img{
+        width:19rem ;
+        height: 20rem;
+        margin-top: 15rem;
+      }
+      .image>.smalimg{
+        margin-right: 7rem;
+      }
+      .smalimg>img{
+        width: 4rem;
+      }
+      .product>.describtio{
+        width: 19rem;
+        margin-top: 2rem;
+      }
+      .describtio>.para{
+        width: 19rem;
+      }
+      .stor{
+        height: 100rem;
+        margin-top: 2rem;
+      }
+      .card-contia{
+        align-items: center;
+        flex-direction: column;
+      }
+      .card-contia>.card{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 22rem;
+        
+      }
+      .card>img{
+        width: 19rem;
+      }
+      .card>button{
+        margin-left: 3rem;
+      }
+      .stor>button{
+        width: 10rem;
+        margin-bottom: 1rem;
+      }
+      .footer>img{
+        width: 8rem;
+        height: 8rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+      }
+      .contin-fot{
+        width: 0rem;
+        margin-left: 14rem;
+        flex-direction: column;
+      }
+      .word{
+        font-size: .5rem;
+        margin-right: 12rem;
+      }
+      .media{
+        font-size: 1rem;
+        margin-right: 20rem;
+      }
+      .media>.icon-fot{
+        width: 5rem;
+      }
+      .icon-fot>img{
+        width: 4rem;
+        margin-left: -12rem;
+      }
+    
+    }
