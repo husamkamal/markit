@@ -394,9 +394,16 @@ li {
       .describtio>.para{
         width: 19rem;
       }
+      .describtio>button{
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+        width: 17rem;
+        margin-right: 2rem;
+      }
       .stor{
         height: 100rem;
-        margin-top: 2rem;
+        margin-top: 7rem;
       }
       .card-contia{
         align-items: center;
